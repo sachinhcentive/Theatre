@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class SessionType{
 	
 	WebDriver driver;
-		//Element for Add Session Type
+		//Element for Add Session Type field
 	   @FindBy(xpath="//div[@class='PageHeader']//button[@class='button button-small']")
 	    
 	    WebElement btnAddSession;
