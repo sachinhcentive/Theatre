@@ -18,7 +18,7 @@ public class CreateSession{
 
 WebDriver driver;
 
-//Element for Create Session button
+//Element for Create Session button then
 @FindBy(xpath="//button[@class='button button-small']")
 
 WebElement btnCreateSession;
