@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Staff Search Module]">
+  <listeners>
+    <listener class-name="com.TheatreProject.Utility.Listeners.TestListener"/>
+  </listeners>
+  <test name="Staff Search(failed)">
+    <classes>
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre">
+        <methods>
+          <include name="test_Mandatory_Fields"/>
+          <include name="test_NoRecordFound"/>
+          <include name="setup"/>
+          <include name="test_UnChkRoleTeam"/>
+          <include name="test_ChkRoleTeam"/>
+          <include name="test_SearchStaff"/>
+          <include name="test_ViewButtonSaveNewTeam"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseCreateSession">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseCreateSession -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSessionType">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSessionType -->
+    </classes>
+  </test> <!-- Staff Search(failed) -->
+  <test name="Search Session(failed)">
+    <classes>
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre">
+        <methods>
+          <include name="test_SearchSession"/>
+          <include name="test_ValNoSessionFound"/>
+          <include name="test_ValMandatoryNonMandatorySessionSaerch"/>
+          <include name="setup"/>
+          <include name="test_SearchSessionMandatoryFields"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseCreateSession">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseCreateSession -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSessionType">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSessionType -->
+    </classes>
+  </test> <!-- Search Session(failed) -->
+  <test name="Create SessionType(failed)">
+    <classes>
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseCreateSession">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseCreateSession -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSessionType">
+        <methods>
+          <include name="test_CreateNewSessionType"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSessionType -->
+    </classes>
+  </test> <!-- Create SessionType(failed) -->
+  <test name="Create New Session(failed)">
+    <classes>
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseCreateSession">
+        <methods>
+          <include name="test_DeleteSessionType1"/>
+          <include name="test_CreateNewSession"/>
+          <include name="close"/>
+          <include name="test_DeleteCreatedSession"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseCreateSession -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre -->
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSessionType">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSessionType -->
+    </classes>
+  </test> <!-- Create New Session(failed) -->
+</suite> <!-- Failed suite [Staff Search Module] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parabank login test suite]">
+  <listeners>
+    <listener class-name="com.TheatreProject.ExtendReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Login tests(failed)">
+    <classes>
+      <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre">
+        <methods>
+          <include name="test_Mandatory_Fields"/>
+          <include name="test_NoRecordFound"/>
+          <include name="setup"/>
+          <include name="test_UnChkRoleTeam"/>
+          <include name="test_ChkRoleTeam"/>
+          <include name="test_SearchStaff"/>
+          <include name="test_ViewButtonSaveNewTeam"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre -->
+    </classes>
+  </test> <!-- Login tests(failed) -->
+</suite> <!-- Failed suite [Parabank login test suite] -->

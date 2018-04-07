@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Staff Search Module" verbose="1">
+    <listeners>
+        <listener class-name="com.TheatreProject.Utility.Listeners.TestListener" />
+    </listeners>
+    
+    <test name="Staff Search">
+        <classes> 
+       			 <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchStaffTheatre" />
+        		
+        </classes>
+    </test>
+    
+     <test name="Search Session">
+        <classes> 
+           <class name="com.TheatreProject.TestCasesTheatre.TestCaseSearchSessionTheatre" />
+        </classes>
+    </test>
+    
+    <test name="Create SessionType">
+        <classes> 
+           <class name="com.TheatreProject.TestCasesTheatre.TestCaseSessionType" />
+        </classes>
+    </test>
+    
+     <test name="Create New Session">
+        <classes> 
+           <class name="com.TheatreProject.TestCasesTheatre.TestCaseCreateSession" />
+        </classes>
+    </test>
+    
+</suite>
